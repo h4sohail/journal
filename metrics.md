@@ -65,6 +65,7 @@ Example: At ~2000 req/s, our 99% latency jumps from 13ms to 554ms.
    Answer: ~500ms
 
 2.  **Orient**
+
    Question: How does this compare with other parts of our system both currently and historically?  
    Answer: Very slow compared to other services
 
