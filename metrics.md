@@ -60,22 +60,18 @@ Example: At ~2000 req/s, our 99% latency jumps from 13ms to 554ms.
 ## Shorten Decision Making Cycle with the OODA Model
 
 1. **Observe**
-   
    Question: What is the 99% latency of our autocomplete service right now?  
    Answer: ~500ms
 
 2.  **Orient**
-
    Question: How does this compare with other parts of our system both currently and historically?  
    Answer: Very slow compared to other services
 
 3. **Decide**
-   
    Question: Should we make it faster? Or should we add a new feature?  
    Answer: We gain more business value from making it fast!
 
 4. **Act**
-   
    Decision: Write some code and fix the bottlenecks!  
 
 Faster decision making means: our mistakes won't live as long, and we will ship more impactful features.
